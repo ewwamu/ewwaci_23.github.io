@@ -1,0 +1,38 @@
+body {
+    background-color: papayawhip;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+p {
+    display: flex;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+marquee{
+    font-size: 50px;
+}
+
+.heading{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 150px;
+    flex-wrap: wrap;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

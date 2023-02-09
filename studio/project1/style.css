@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+/* Import fonts */
+/*@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}*/
+
+body{
+  background-color: papayawhip;
+  font-family: 'Courier Prime', monospace;
+}
+
+marquee {
+  font-size: 50px;
+}
+
+.cat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+img {
+  width: 150%;
+}
+
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink:hover {
+    animation-play-state: paused;
+  }
+
+p {
+ /*display: inline-flex;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center; */
+    border: 2px solid #000000;
+    border-radius: 0.25em;
+    font-weight: normal;
+    line-height: 1;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 2em 3em;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a {
+ /*display: inline-flex;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center; */
+    margin: 1px;
+    border: 2px solid #000000;
+    border-radius: 0.25em;
+    font-weight: normal;
+    line-height: 1;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 2em 3em;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+    font-size: 16px;
+    display: flex;
+
+}
