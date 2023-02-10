@@ -133,6 +133,22 @@ details[open] summary ~ * {
     cursor: url("assets/imgs/corneliuss-01.png"), auto;
 }
 
-.arenapost{
+.labsummary1{
     color: black;
+}
+
+
+.labsummary1 a:hover {
+  color: tomato;
+  cursor: url("assets/imgs/corneliuss-01.png"), auto;
+}
+
+.labsummary2{
+  color: black;
+}
+
+
+.labsummary2 a:hover {
+color: tomato;
+cursor: url("assets/imgs/corneliuss-01.png"), auto;
 }
