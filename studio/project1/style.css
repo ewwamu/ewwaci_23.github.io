@@ -19,12 +19,13 @@
 }*/
 
 body{
-  background-color: papayawhip;
+  background-color: tomato;
   font-family: 'Courier Prime', monospace;
 }
 
 marquee {
   font-size: 50px;
+  color: papayawhip;
 }
 
 .cat {
@@ -63,7 +64,7 @@ p {
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center; */
-    border: 2px solid #000000;
+    border: 2px solid papayawhip;
     border-radius: 0.25em;
     font-weight: normal;
     line-height: 1;
@@ -71,7 +72,7 @@ p {
     cursor: pointer;
     text-align: center;
     padding: 2em 3em;
-    color: #000000;
+    color: papayawhip;
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
     font-size: 16px;
@@ -83,7 +84,7 @@ a {
     -webkit-box-pack: center;
     justify-content: center; */
     margin: 1px;
-    border: 2px solid #000000;
+    border: 2px solid papayawhip;
     border-radius: 0.25em;
     font-weight: normal;
     line-height: 1;
@@ -91,7 +92,7 @@ a {
     cursor: pointer;
     text-align: center;
     padding: 2em 3em;
-    color: #000000;
+    color: papayawhip;
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
     font-family: 'Courier Prime', monospace;

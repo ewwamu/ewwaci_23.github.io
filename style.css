@@ -1,7 +1,10 @@
+html{
+    cursor: url("assets/imgs/meow-05.png"), auto;
+}
+
 body {
     background-color: papayawhip;
     font-family: 'Bebas Neue', cursive;
-
 }
 
 p {
@@ -12,17 +15,58 @@ p {
     margin-inline-end: 10px;
 }
 
-marquee{
-    font-size: 50px;
+.marquee {
+   font-size: 50px;
 }
+
+/*.marquee {
+    background-color: #ddd;
+    width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .marquee span {
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    left: 100%;
+    animation: marquee 8s linear infinite;
+  }
+  .marquee:hover span {
+    animation-play-state: paused;
+  }
+  
+  .marquee span:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .marquee span:nth-child(2) {
+    animation-delay: 0.8s;
+  }
+  .marquee span:nth-child(3) {
+    animation-delay: 1.6s;
+  }
+  .marquee span:nth-child(4) {
+    animation-delay: 2.4s;
+  }
+  .marquee span:nth-child(5) {
+    animation-delay: 3.2s;
+  }
+  
+  @keyframes marquee {
+    0%   { left: 100%; }
+    100% { left: -100%; }
+  }*/
 
 .heading{
     margin: 5px;
     display: flex;
-    justify-content: space-between;
     font-family: 'Press Start 2P', cursive;
-    font-size: 150px;
+    font-size: 120px;
     flex-wrap: wrap;
+    flex-shrink: 5px;
+    flex: 1;
+    justify-content: space-evenly;
 }
 
 .wrapper{
@@ -34,5 +78,61 @@ marquee{
 
 a{
     text-decoration: none;
+    color: black;
+    
+}
+
+details[open] summary ~ * {
+    animation: sweep 1s ease-in-out;
+  }
+  
+  @keyframes sweep {
+    0%    {opacity: 0; margin-left: -10px}
+    100%  {opacity: 1; margin-left: 0px}
+  }
+
+  details[close] summary ~ * {
+    animation: sweep 1s ease-in-out;
+  }
+
+.studio{
+    background-color: black;
+    color: papayawhip;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    display: flex;
+    animation: marquee 5s linear infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.studio:active{
+    animation-timing-function: ease-in-out;
+}
+
+.studio:hover{
+    cursor: url("assets/imgs/hua-02.png"), auto;
+
+}
+
+.lab {
+    display: flex;
+}
+
+.lab:hover{
+    cursor: url("assets/imgs/jake-03.png"), auto;
+}
+
+.proj1 a{
+    color: papayawhip;
+    cursor: url("assets/imgs/corneliuss-01.png"), auto;
+}
+
+.proj1 a:hover {
+    color: tomato;
+    cursor: url("assets/imgs/corneliuss-01.png"), auto;
+}
+
+.arenapost{
     color: black;
 }
