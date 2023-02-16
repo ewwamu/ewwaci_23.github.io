@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon" format="2">
+  <advance width="465"/>
+  <outline>
+    <contour>
+      <point x="111" y="393" type="line"/>
+      <point x="111" y="670" type="line"/>
+      <point x="138" y="670" type="line"/>
+      <point x="138" y="393" type="line"/>
+    </contour>
+  </outline>
+</glyph>

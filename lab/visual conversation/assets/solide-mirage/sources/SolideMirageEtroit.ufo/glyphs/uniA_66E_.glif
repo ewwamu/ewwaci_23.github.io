@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA66E" format="2">
+  <advance width="930"/>
+  <unicode hex="A66E"/>
+  <outline>
+    <component base="petitarc" xOffset="119" yOffset="119"/>
+    <component base="petitarc" xOffset="618" yOffset="119"/>
+    <component base="petitarc" xOffset="371" yOffset="-18"/>
+    <component base="petitarc" xOffset="49" yOffset="324"/>
+    <component base="petitarc" xOffset="687" yOffset="322"/>
+    <component base="petitarc" xOffset="121" yOffset="517"/>
+    <component base="petitarc" xOffset="618" yOffset="519"/>
+    <component base="petitarc" xOffset="371" yOffset="658"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8157,0.8157,0.8157,1</string>
+    </dict>
+  </lib>
+</glyph>

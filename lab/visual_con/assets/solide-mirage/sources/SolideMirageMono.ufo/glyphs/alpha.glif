@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alpha" format="2">
+  <advance width="930"/>
+  <unicode hex="03B1"/>
+  <outline>
+    <contour>
+      <point x="421" y="744" type="curve" smooth="yes"/>
+      <point x="557" y="744"/>
+      <point x="613" y="648"/>
+      <point x="613" y="518" type="curve" smooth="yes"/>
+      <point x="613" y="194" type="line" smooth="yes"/>
+      <point x="613" y="46"/>
+      <point x="529" y="7"/>
+      <point x="420" y="7" type="curve" smooth="yes"/>
+      <point x="269" y="7"/>
+      <point x="235" y="93"/>
+      <point x="235" y="371" type="curve" smooth="yes"/>
+      <point x="235" y="643"/>
+      <point x="276" y="744"/>
+    </contour>
+    <contour>
+      <point x="401" y="771" type="curve" smooth="yes"/>
+      <point x="200" y="771"/>
+      <point x="95.0" y="637.0"/>
+      <point x="95" y="374" type="curve" smooth="yes"/>
+      <point x="95" y="112"/>
+      <point x="203" y="-20"/>
+      <point x="422" y="-20" type="curve" smooth="yes"/>
+      <point x="558.1047120418848" y="-20.0"/>
+      <point x="605" y="49"/>
+      <point x="616" y="82" type="curve"/>
+      <point x="627.5433468197799" y="12.739919081320807"/>
+      <point x="670" y="-20"/>
+      <point x="746" y="-20" type="curve" smooth="yes" name="hr00"/>
+      <point x="834" y="-20"/>
+      <point x="855" y="12"/>
+      <point x="855" y="119" type="curve" smooth="yes"/>
+      <point x="855" y="195" type="line"/>
+      <point x="830" y="195" type="line"/>
+      <point x="830" y="121" type="line" smooth="yes"/>
+      <point x="830" y="45"/>
+      <point x="821" y="18"/>
+      <point x="781" y="18" type="curve" smooth="yes"/>
+      <point x="755" y="18"/>
+      <point x="741" y="53"/>
+      <point x="741" y="119" type="curve" smooth="yes"/>
+      <point x="741" y="750" type="line"/>
+      <point x="717" y="750" type="line"/>
+      <point x="596" y="639" type="line"/>
+      <point x="627" y="634" type="line"/>
+      <point x="577" y="747"/>
+      <point x="516" y="771"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4809,1,0.7016,1</string>
+    </dict>
+  </lib>
+</glyph>

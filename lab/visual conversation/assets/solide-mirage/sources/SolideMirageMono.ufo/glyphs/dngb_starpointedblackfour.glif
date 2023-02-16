@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dngb:starpointedblackfour" format="2">
+  <advance width="930"/>
+  <outline>
+    <contour>
+      <point x="767" y="403" type="line"/>
+      <point x="622" y="463"/>
+      <point x="530" y="554"/>
+      <point x="470" y="699" type="curve"/>
+      <point x="460" y="699" type="line"/>
+      <point x="400" y="554"/>
+      <point x="308" y="463"/>
+      <point x="163" y="403" type="curve"/>
+      <point x="163" y="393" type="line"/>
+      <point x="308" y="333"/>
+      <point x="400" y="242"/>
+      <point x="460" y="97" type="curve"/>
+      <point x="470" y="97" type="line"/>
+      <point x="530" y="242"/>
+      <point x="622" y="333"/>
+      <point x="767" y="393" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

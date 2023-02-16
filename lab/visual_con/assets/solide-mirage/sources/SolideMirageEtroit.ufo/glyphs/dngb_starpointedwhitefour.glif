@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dngb:starpointedwhitefour" format="2">
+  <advance width="930"/>
+  <unicode hex="2727"/>
+  <outline>
+    <contour>
+      <point x="767" y="403" type="curve"/>
+      <point x="767" y="393" type="line"/>
+      <point x="622" y="333"/>
+      <point x="530" y="242"/>
+      <point x="470" y="97" type="curve"/>
+      <point x="460" y="97" type="line"/>
+      <point x="400" y="242"/>
+      <point x="308" y="333"/>
+      <point x="163" y="393" type="curve"/>
+      <point x="163" y="403" type="line"/>
+      <point x="308" y="463"/>
+      <point x="400" y="554"/>
+      <point x="460" y="699" type="curve"/>
+      <point x="470" y="699" type="line"/>
+      <point x="530" y="554"/>
+      <point x="622" y="463"/>
+    </contour>
+    <contour>
+      <point x="410" y="530"/>
+      <point x="332" y="453"/>
+      <point x="222" y="398" type="curve"/>
+      <point x="332" y="343"/>
+      <point x="410" y="266"/>
+      <point x="465" y="156" type="curve"/>
+      <point x="520" y="266"/>
+      <point x="598" y="343"/>
+      <point x="708" y="398" type="curve"/>
+      <point x="598" y="453"/>
+      <point x="520" y="530"/>
+      <point x="465" y="640" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8157,0.8157,0.8157,1</string>
+    </dict>
+  </lib>
+</glyph>

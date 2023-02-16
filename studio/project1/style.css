@@ -19,28 +19,70 @@
 }*/
 
 body{
-  background-color: tomato;
+  background-color: papayawhip;
   font-family: 'Courier Prime', monospace;
 }
 
 marquee {
-  font-size: 50px;
-  color: papayawhip;
+  font-size: 100px;
+  color: black;
+  margin: -1px;
 }
 
 .cat {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  /*align-items: flex-end;*/
+  margin: 0;
+  position: relative;
 }
 
-img {
-  width: 150%;
+.cat-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 0.25em;
+  padding: 25px 100px 25px 25px;
+  transition: transform .7s ease-in-out;
 }
 
-.blink {
-  animation: blink 1s steps(1, end) infinite;
+.cat-img img:hover{
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+
+}
+
+.text {
+  /*display: inline-flex;
+     align-items: center;
+     -webkit-box-pack: center;
+     justify-content: center;
+     display: flex;
+     border: 2px solid black;
+     border-radius: 0.25em;*/
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     font-weight: normal;
+     line-height: 1;
+     user-select: none;
+     cursor: pointer;
+     text-align:right;
+     padding: 1px;
+     color: black;
+     -webkit-font-smoothing: antialiased;
+     text-decoration: none;
+     font-size: 16px;
+ }
+
+/*.blink {
+  animation: blink .5s steps(1, end) infinite;
 }
 
 @keyframes blink {
@@ -63,8 +105,9 @@ p {
  /*display: inline-flex;
     align-items: center;
     -webkit-box-pack: center;
-    justify-content: center; */
-    border: 2px solid papayawhip;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
     border-radius: 0.25em;
     font-weight: normal;
     line-height: 1;
@@ -72,19 +115,20 @@ p {
     cursor: pointer;
     text-align: center;
     padding: 2em 3em;
-    color: papayawhip;
+    color: black;
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
     font-size: 16px;
-}
+}*/
 
 a {
  /*display: inline-flex;
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center; */
+    display: flex;
     margin: 1px;
-    border: 2px solid papayawhip;
+    border: 2px solid black;
     border-radius: 0.25em;
     font-weight: normal;
     line-height: 1;
@@ -92,11 +136,16 @@ a {
     cursor: pointer;
     text-align: center;
     padding: 2em 3em;
-    color: papayawhip;
+    color: black;
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
     font-family: 'Courier Prime', monospace;
     font-size: 16px;
     display: flex;
 
+}
+
+a:hover{
+  background-color: black;
+  color: papayawhip;
 }

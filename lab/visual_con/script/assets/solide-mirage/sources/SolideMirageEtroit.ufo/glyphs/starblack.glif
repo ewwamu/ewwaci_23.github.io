@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="starblack" format="2">
+  <advance width="930"/>
+  <unicode hex="2605"/>
+  <outline>
+    <contour>
+      <point x="465" y="238" type="line"/>
+      <point x="244" y="81" type="line"/>
+      <point x="330" y="337" type="line"/>
+      <point x="108" y="501" type="line"/>
+      <point x="381" y="495" type="line"/>
+      <point x="465" y="760" type="line"/>
+      <point x="549" y="495" type="line"/>
+      <point x="822" y="501" type="line"/>
+      <point x="600" y="337" type="line"/>
+      <point x="686" y="81" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8157,0.8157,0.8157,1</string>
+    </dict>
+  </lib>
+</glyph>

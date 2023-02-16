@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegatonos" format="2">
+  <advance width="930"/>
+  <unicode hex="038F"/>
+  <outline>
+    <component base="Omega"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4809,1,0.7016,0.3019</string>
+    </dict>
+  </lib>
+</glyph>

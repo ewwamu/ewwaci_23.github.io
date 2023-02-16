@@ -1,0 +1,100 @@
+html{
+    overflow: hidden;
+    height: 100%;
+    color: papayawhip;
+}
+
+body{
+    background-color:black;
+    background-image: url(./assets/imgs/beforesunrise.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Courier Prime', monospace;
+}
+
+
+@font-face {
+    font-family: 'Solide Mirage_Etroit';
+    src:    url('./assets/solide-mirage/fonts/webfonts/Etroit/Solide_Mirage-Etroit_web.woff') format('woff'),
+            url('./assets/solide-mirage/fonts/webfonts/Etroit/Solide_Mirage-Etroit_web.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Solide Mirage';
+    src:    url('./assets/solide-mirage/fonts/webfonts/Mono/Solide_Mirage-Mono_web.woff') format('woff'),
+            url('./assets/solide-mirage/fonts/webfonts/Mono/Solide_Mirage-Mono_web.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Compagnon Master Italic';
+    src:    url('./assets/compagnon-master/fonts/webfonts/Compagnon-Italic.woff') format('woff'),
+            url('./assets/compagnon-master/fonts/webfonts/Compagnon-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Compagnon Master Light';
+    src:    url('./assets/compagnon-master/fonts/webfonts/Compagnon-Light.woff') format('woff'),
+            url('./assets/compagnon-master/fonts/webfonts/Compagnon-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Compagnon Master Medium';
+    src:    url('./assets/compagnon-master/fonts/webfonts/Compagnon-Medium.woff') format('woff'),
+            url('./assets/compagnon-master/fonts/webfonts/Compagnon-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Compagnon Master Bold';
+    src:    url('./assets/compagnon-master/fonts/webfonts/Compagnon-Bold.woff') format('woff'),
+            url('./assets/compagnon-master/fonts/webfonts/Compagnon-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Compagnon Master Roman';
+    src:    url('./assets/compagnon-master/fonts/webfonts/Compagnon-Roman.woff') format('woff'),
+            url('./assets/compagnon-master/fonts/webfonts/Compagnon-Roman.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row-1--heading{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Solide Mirage';
+}
+
+img{
+    position: absolute;
+    top: -110px;
+    left: -10px;
+  }
+
+  .button {
+    padding: 20px 50px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    font-size: 60px;
+    font-size: 20px;
+    text-align: center;
+    text-align: center;
+    transition: all 100ms;
+  }
