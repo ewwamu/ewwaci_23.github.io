@@ -85,9 +85,7 @@ body{
         top: 50%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
-        /*opacity: 0%;*/
-
-    }
+        /*opacity: 0%;}*/
 
     .row-2--content:hover .row-2--face{
         opacity: 1;
@@ -228,7 +226,7 @@ body{
 
     .column-2:hover .name-1{
         /*opacity: 100%;*/
-        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
     }
 
     
@@ -318,7 +316,7 @@ body{
     
       .sh {
         /*opacity: 0%;*/
-        -webkit-transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
       }
     
       .line-5:hover .sh{
@@ -327,7 +325,7 @@ body{
     
       .sh-2 {
         /*opacity: 0%;*/
-        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
         }
     
       .line-5:hover .sh-2{
@@ -336,7 +334,7 @@ body{
     
       .sh-3 {
         /*opacity: 0%;*/
-        -webkit-transition: all 2.5s ease-in-out;
+        transition: all 2.5s ease-in-out;
         }
     
       .line-5:hover .sh-3{
@@ -346,7 +344,7 @@ body{
 
     .column-2:hover .line-5{
         /*opacity: 100%;*/
-        -webkit-transition: 2.5s ease-in-out;
+        transition: 2.5s ease-in-out;
 
     }
 
@@ -493,7 +491,7 @@ body{
       }
     
       .line-16:hover{
-      /*/*opacity: 100%;*/*/
+      /*opacity: 100%;*/
       transition: ease, 2s;
       }
     
