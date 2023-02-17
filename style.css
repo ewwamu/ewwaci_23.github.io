@@ -152,3 +152,14 @@ details[open] summary ~ * {
 color: tomato;
 cursor: url("assets/imgs/corneliuss-01.png"), auto;
 }
+
+
+.labsummary3{
+  color: black;
+}
+
+
+.labsummary3 a:hover {
+color: tomato;
+cursor: url("assets/imgs/corneliuss-01.png"), auto;
+}
