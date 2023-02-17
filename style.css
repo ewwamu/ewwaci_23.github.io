@@ -96,12 +96,9 @@ details[open] summary ~ * {
   }
 
 .studio{
-    background-color: black;
-    color: papayawhip;
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 20px;
-    border-radius: 25px;
-    display: flex;
+    width: 45%;
+    height: auto;
+    padding: 15px;
     animation: marquee 5s linear infinite;
     animation-timing-function: ease-in-out;
 }
@@ -117,6 +114,9 @@ details[open] summary ~ * {
 
 .lab {
     display: flex;
+    width: 45%;
+    padding: 15px;
+    height: auto;
 }
 
 .lab:hover{
@@ -124,7 +124,7 @@ details[open] summary ~ * {
 }
 
 .proj1 a{
-    color: papayawhip;
+    color: black;
     cursor: url("assets/imgs/corneliuss-01.png"), auto;
 }
 
