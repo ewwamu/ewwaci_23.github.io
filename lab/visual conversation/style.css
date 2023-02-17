@@ -6,7 +6,7 @@ body{
     }
 
     @font-face {
-        font-family: 'Solide Mirage_Etroit';
+        font-family: 'Solide Mirage Etroit';
         src:    url('./assets/solide-mirage/fonts/webfonts/Etroit/Solide_Mirage-Etroit_web.woff') format('woff'),
                 url('./assets/solide-mirage/fonts/webfonts/Etroit/Solide_Mirage-Etroit_web.woff2') format('woff2');
         font-weight: normal;
@@ -85,7 +85,7 @@ body{
         top: 50%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
-        opacity: 0%;
+        /*opacity: 0%;*/
 
     }
 
@@ -188,203 +188,193 @@ body{
     .column-2--content{
         display: flex;
         flex-direction: column;
+        padding-top: 25px;
+        font-size: 18px;
+        line-height: 25px;
     }
 
     .celine{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        padding: 15px;
+  
     }
 
+    .celine-content{
+        width: 75%;
+    }
+
+    .celine-img{
+        width: 25%;
+        float: right;
+        margin-right: auto;
+    }
+
+    .celine-img img{
+        border-radius: 25px;
+        width: 90%; 
+        height: 100%; 
+        object-fit: cover;
+        float: right;
+        margin-right: auto;
+    }
 
     .name-1{
-        opacity: 0%;
-        margin: 5px;
-        -webkit-transition: all 1.5s ease-in-out;
+        /*opacity: 0%;*/
+        font-size: 25px;
+        font-family: 'Solide Mirage Etroit';
+        letter-spacing: 5px;
     }
 
     .column-2:hover .name-1{
-        opacity: 100%;
+        /*opacity: 100%;*/
         -webkit-transition: all .5s ease-in-out;
     }
 
-    .line-1{
-        background-color:papayawhip;
-        color: black;
-        margin: 5px;
-        border-radius: 25px;
-        padding: 10px;
-        display: flex;
-        width: 25%;
-        height: auto;
-        opacity: 0%;
-        -webkit-transition: all 1.5s ease-in-out;
-    }
-
-    .column-2:hover .line-1{
-        opacity: 100%;
-        -webkit-transition: all 1.5s ease-in-out;
-    }
-
-    .line-2{
-        background-color:papayawhip;
-        color: black;
-        font-size: 16px;
-        margin: 5px;
-        border-radius: 25px;
-        padding: 10px;
-        display: flex;
-        width: 40%;
-        height: auto;
-        left: 0;
-        opacity: 0%;
-        transition: ease-in-out 2.5s;
-        -webkit-transition: all 2.5s ease-in-out;
-    }
-
-    .line-2 .pressure{
-        text-transform: uppercase;
-    }
-
-    .line-2:hover .pressure{
-        font-size: 30px;
-        transition: ease-in-out 1s;
-    }
-
-    .line-2 .independent{
-        opacity: 100%;
-        transition: ease-in-out 1.5s;
-
-    }
-
-    .line-2:hover .independent{
-        opacity: 0%;
-        transition: ease-in-out 1.5s;
-    }
-
-    .line-2 .independent-float{
-        color: papayawhip;
-        position: absolute;
-        top: 800px;
-        left: 600px;
-        opacity: 0%;
-        transition: ease-in-out 2s;
-
-    }
-
-    .line-2:hover .independent-float{
-        position: absolute;
-        top: 800px;
-        left: 600px;
-        opacity: 100%;
-        transition: ease-in-out 2s;
-    }
-
-    .column-2:hover .line-2{
-        opacity: 100%;
-        -webkit-transition: all 2s ease-in-out;
-    }
-
-    .line-3{
-        background-color:papayawhip;
-        color: black;
-        margin: 5px;
-        border-radius: 25px;
-        padding: 8px;
-        display: flex;
-        width: 45%;
-        height: auto;
-        left: 0;
-        transition: ease-in-out, 3.5s;
-        -webkit-transition: all 3.5s ease-in-out;
-        opacity: 0%;
-
-    }
-
-    .line-3:hover{
-        background-color:#ba301e;
-        color: papayawhip;
-        margin: 5px;
-        border-radius: 25px;
-        transition: ease-in-out, 3.5s;
-    }
-
-    .line-3 b{
-        opacity: 0%;
-        font-size: 16px;
-        color: papayawhip;
-        -webkit-transition: ease-in-out, 3s;
-
-    }
-
-    .line-3:hover .love{
-        opacity: 100%;
+    
+      .line-1{
+        /*opacity: 0%;*/
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        border: 10px;
+        transition: ease-in-out, 0.5s;
+      }
+    
+      .line-1:hover{
+        /*opacity: 100%;*/
+        transition: ease-in-out, 0.5s;
+      }
+    
+      .line-2{
+        /*opacity: 0%;*/
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        border: 10px;
+        transition: opacity .5s ease, font-size 2s ease;
+      }
+    
+      .line-2:hover{
+        /*opacity: 100%;*/
+        transition: ease, 0.5s;
+      }
+    
+    /*.line-2:hover .pressure{
+        font-size: 75px;
+        transition: ease, 2s;
+    }*/
+    
+      .line-3{
+        /*opacity: 0%;*/
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        border: 10px;
+        transition: ease-in-out, 0.5s;
+      }
+    
+      .line-3:hover{
+      /*opacity: 100%;*/
+      transition: ease, 0.5s;
+      }
+    
+      .line-4{
+        /*opacity: 0%;*/
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        border: 10px;
+        transition: ease-in-out, 0.5s;
+      }
+    
+      .line-4:hover{
+      /*opacity: 100%;*/
+      transition: ease, 0.5s;
+      }
+    
+      .line-5{
+        text-align: center;
+        /*opacity: 0%;*/
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        border: 10px;
+        transition: ease-in-out, 0.5s;
+      }
+    
+      .line-5:hover{
+      /*opacity: 100%;*/
+      transition: ease, 0.5s;
+      }
+    
+      sub {
         font-size: 20px;
       }
-
-    .column-2:hover .line-3{
-        opacity: 100%;
-        -webkit-transition: 3.5s ease-in-out;
-    }
-
-    .line-4{
-        background-color:papayawhip;
-        color: black;
-        margin: 5px;
-        border-radius: 25px;
-        padding: 10px;
-        display: flex;
-        width: 45%;
-        height: auto;
-        left: 0;
-        opacity: 0%;
-        transition: ease-in-out, 0.5s;
-        -webkit-transition: all 4.5s ease-in-out;
-    }
-
-    .column-2:hover .line-4{
-        opacity: 100%;
-        -webkit-transition: all 4.5s ease-in-out;
-    }
-
-    .line-5{
-        background-color:black;
-        color: papayawhip;
-        font-size: 7px;
-        margin: 5px;
-        border-style: solid;
-        border-radius: 25px;
-        padding: 10px;
-        display: flex;
-        width: 11%;
-        height: auto;
-        left: 0;
-        opacity: 0%;
-        /*transition: ease-in-out, 0.5s;*/
-        -webkit-transition: 5.5s ease-in-out;
-    }
-
-    .line-5:hover{
-        font-size: 16px;
-        width: 17%;
-        height: auto;
-        -webkit-transition: 5.5s ease-in-out;
-
-    }
+    
+      sup {
+        font-size: 20px;
+      }
+    
+      .sh {
+        /*opacity: 0%;*/
+        -webkit-transition: all 1.5s ease-in-out;
+      }
+    
+      .line-5:hover .sh{
+          /*opacity: 100%;*/
+        }
+    
+      .sh-2 {
+        /*opacity: 0%;*/
+        -webkit-transition: all 0.5s ease-in-out;
+        }
+    
+      .line-5:hover .sh-2{
+          /*opacity: 100%;*/
+        }
+    
+      .sh-3 {
+        /*opacity: 0%;*/
+        -webkit-transition: all 2.5s ease-in-out;
+        }
+    
+      .line-5:hover .sh-3{
+          /*opacity: 100%;*/
+        }
+    
 
     .column-2:hover .line-5{
-        opacity: 100%;
+        /*opacity: 100%;*/
         -webkit-transition: 2.5s ease-in-out;
 
     }
 
-    .jesse-content{
+    .jesse{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         float: right;
         text-align: right;
         margin-right: auto;
-
+        padding: 15px;
     }
+
+    .jesse-content{
+        width: 75%;
+    }
+
+    .jesse-img{
+        width: 25%;
+    }
+
+    .jesse-img img{
+        border-radius: 25px;
+        width: 90%; 
+        height: 100%; 
+        object-fit: cover;
+        object-position: 94%;
+    }
+    
 
     /*.empty{
         margin: 225px;
@@ -394,10 +384,13 @@ body{
         margin: 5px;
         display: flex;
         text-align: right;
+        font-size: 25px;
+        font-family: 'Solide Mirage Etroit';
+        letter-spacing: 5px;
     }
 
 
-    .line-6{
+    /*.line-6{
         background-color:papayawhip;
         color: black;
         margin: 5px;
@@ -407,68 +400,193 @@ body{
         display: flex;
         width: 45%;
         height: auto;
-    }
-
-
-
-
-    /*
-      sub {
-        font-size: 10px;
-      }
-    
-      sup {
-        font-size: 10px;
-      }
-    
-      .sh {
-        opacity: 0%;
-        -webkit-transition: all 1.5s ease-in-out;
-      }
-    
-      .line-3:hover .sh{
-          opacity: 100%;
-        }
-    
-      .sh-2 {
-        opacity: 0%;
-        -webkit-transition: all 0.5s ease-in-out;
-        }
-    
-      .line-3:hover .sh-2{
-          opacity: 100%;
-        }
-    
-      .sh-3 {
-        opacity: 0%;
-        -webkit-transition: all 2.5s ease-in-out;
-        }
-    
-      .line-3:hover .sh-3{
-          opacity: 100%;
-        }*/
-    
-/*
-    .footer-title{
-        text-align: center;
-        line-height: 100%;
-    }
-
-    .footer{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        gap: 20px;
-    }
-
-    .footer-spacer {
-        background-color: black;
-        height: 1px;
-        width: 200px;
-        flex-grow: 1;
-    }
-
-    .footer-body {
-        width: 50%;
-        justify-content: flex-end;
     }*/
+
+
+
+    .celine-2{
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+  
+    }
+
+    .celine-2--content{
+        width: 75%;
+    }
+
+    .celine-2-img{
+        width: 25%;
+        float: right;
+        margin-right: auto;
+    }
+
+    .celine-2-img img{
+        border-radius: 25px;
+        width: 90%; 
+        height: 100%; 
+        object-fit: cover;
+        float: right;
+        margin-right: auto;
+        object-position: 38%;
+    }
+    .name-3{
+        font-size: 25px;
+        font-family: 'Solide Mirage Etroit';
+        letter-spacing: 5px;
+      }
+    
+      .line-11{
+        /*opacity: 0%;*/
+        transition: ease-in-out, 2s;
+      }
+    
+      .line-11:hover{
+        /*opacity: 100%;*/
+        transition: ease-in-out, 2s;
+      }
+    
+      .line-12{
+        /*opacity: 0%;*/
+        transition: opacity 2s ease, font-size 2s ease;
+      }
+    
+      .line-12:hover{
+        /*opacity: 100%;*/
+        transition: ease-in-out, 2s;
+      }
+    
+      .line-13{
+        text-align: center;
+        /*opacity: 0%;*/
+        transition: ease-in-out, 2s;
+      }
+    
+      .line-13:hover{
+      /*opacity: 100%;*/
+      transition: ease, 2;
+      }
+    
+      .line-14{
+        /*opacity: 0%;*/
+        transition: ease-in-out, 2s;
+      }
+    
+      .line-14:hover{
+      /*opacity: 100%;*/
+      transition: ease, 2s;
+      }
+    
+      .line-15{
+      /*opacity: 0%;*/
+      transition: ease-in-out, 2s;
+      }
+    
+      .line-15:hover{
+      /*opacity: 100%;*/
+      transition: ease, 2s;
+      }
+    
+      .line-16{
+        /*opacity: 0%;*/
+        transition: ease-in-out, 2s;
+      }
+    
+      .line-16:hover{
+      /*/*opacity: 100%;*/*/
+      transition: ease, 2s;
+      }
+    
+      .line-17{
+      /*opacity: 0%;*/
+      transition: ease-in-out, 2s;
+      }
+    
+      .line-17:hover{
+      /*opacity: 100%;*/
+      transition: ease, 2s;
+      }
+    
+    
+      .line-18{
+        /*opacity: 0%;*/
+
+        transition: ease-in-out, 2s;
+      }
+    
+      .line-18:hover{
+      /*opacity: 100%;*/
+      transition: ease, 2s;
+      }
+    
+      .line-19{
+      /*opacity: 0%;*/
+      transition: ease-in-out, 2s;
+      }
+    
+      .line-19:hover{
+      /*opacity: 100%;*/
+      transition: ease, 2s;
+      }
+    
+      .line-20{
+      /*opacity: 0%;*/
+      transition: ease-in-out, 2s;
+      }
+      
+      .line-20:hover{
+      /*opacity: 100%;*/
+      transition: ease, 2s;
+      }
+    
+      .line-21{
+      /*opacity: 0%;*/
+
+      transition: ease-in-out, 2s;
+      }
+      
+      .line-21:hover{
+      /*opacity: 100%;*/
+      transition: ease, 2s;
+      }
+    
+      .line-22{
+      /*opacity: 0%;*/
+      transition: ease-in-out, 2s;
+      }
+    
+      .line-22:hover{
+      /*opacity: 100%;*/
+      transition: ease, 2s;
+      }
+
+
+
+    .button {
+        margin: 20px;
+        padding: 30px;
+        border-radius: 50%;
+        background-color: papayawhip;
+        font-family: 'Solide Mirage Etroit';
+        color: black;
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        /*transition: all 100ms;*/
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+        animation-name: rotate;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+    
+      @keyframes rotate{
+        from{ transform: rotate(-360deg); }
+        to{ transform: rotate(360deg); }
+    }

@@ -2,22 +2,30 @@ html{
     overflow: hidden;
     height: 100%;
     color: papayawhip;
+    font-size: 48px;
+    cursor: pointer;
 }
 
 body{
     background-color:black;
-    background-image: url(./assets/imgs/beforesunrise.jpg);
+    background-image: url(./assets/imgs/beforesunriseg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
     overflow: auto;
     font-family: 'Courier Prime', monospace;
+    transition: ease-in-out 90s;
+}
+
+body:hover{
+    background-image: url(./assets/imgs/beforesunrise.jpg);
+    transition: ease-in-out 90s;
 }
 
 
 @font-face {
-    font-family: 'Solide Mirage_Etroit';
+    font-family: 'Solide Mirage Etroit';
     src:    url('./assets/solide-mirage/fonts/webfonts/Etroit/Solide_Mirage-Etroit_web.woff') format('woff'),
             url('./assets/solide-mirage/fonts/webfonts/Etroit/Solide_Mirage-Etroit_web.woff2') format('woff2');
     font-weight: normal;
@@ -72,29 +80,433 @@ body{
     font-style: normal;
 }
 
-.row-1--heading{
-    color:black;
+.row-1--heading .before{
+    color:papayawhip;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
-    font-size: 18px;
+    padding: 10px;
+    font-size: 42px;
     font-family: 'Solide Mirage';
+    position: fixed;
+    top: 0px;
+    left: 5px;
+}
+
+.row-1--heading .sunrise{
+    color:papayawhip;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 42px;
+    font-family: 'Solide Mirage';
+    position: fixed;
+    top: 0px;
+    right: 5px;
 }
 
 img{
-    position: absolute;
-    top: -110px;
-    left: -10px;
+    position: relative;
+    width: 33%;
+    height: auto;
+  }
+
+  .row-2--content{
+    display: flex;
+    flex-direction:column;
+    padding: 100px;
+
+  }
+
+  .name-1{
+    font-size: 60px;
+    font-family: 'Solide Mirage Etroit';
+    letter-spacing: 5px;
+  }
+
+  .line-1{
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-1:hover{
+    opacity: 100%;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-2{
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: opacity .5s ease, font-size 2s ease;
+  }
+
+  .line-2:hover{
+    opacity: 100%;
+    transition: ease, 0.5s;
+  }
+
+.line-2:hover .pressure{
+    font-size: 75px;
+    transition: ease, 2s;
+
+}
+
+  .line-3{
+    text-align: center;
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-3:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-4{
+    text-align: center;
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-4:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-5{
+    text-align: center;
+    opacity: 0%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-5:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  sub {
+    font-size: 20px;
+  }
+
+  sup {
+    font-size: 20px;
+  }
+
+  .sh {
+    opacity: 0%;
+    -webkit-transition: all 1.5s ease-in-out;
+  }
+
+  .line-5:hover .sh{
+      opacity: 100%;
+    }
+
+  .sh-2 {
+    opacity: 0%;
+    -webkit-transition: all 0.5s ease-in-out;
+    }
+
+  .line-5:hover .sh-2{
+      opacity: 100%;
+    }
+
+  .sh-3 {
+    opacity: 0%;
+    -webkit-transition: all 2.5s ease-in-out;
+    }
+
+  .line-5:hover .sh-3{
+      opacity: 100%;
+    }
+
+  
+  .name-2{
+    font-size: 60px;
+    font-family: 'Solide Mirage Etroit';
+    letter-spacing: 5px;
+  }
+
+  .line-6{
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-6:hover{
+    opacity: 100%;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-7{
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: opacity .5s ease, font-size 2s ease;
+  }
+
+  .line-7:hover{
+    opacity: 100%;
+    transition: ease, 0.5s;
+  }
+
+  .line-8{
+    text-align: center;
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-8:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-9{
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-9:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-10{
+  text-align: center;
+  opacity: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 10px;
+  transition: ease-in-out, 0.5s;
+  }
+
+  .line-10:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+
+  
+  .name-3{
+    font-size: 60px;
+    font-family: 'Solide Mirage Etroit';
+    letter-spacing: 5px;
+  }
+
+  .line-11{
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-11:hover{
+    opacity: 100%;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-12{
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: opacity .5s ease, font-size 2s ease;
+  }
+
+  .line-12:hover{
+    opacity: 100%;
+    transition: ease, 0.5s;
+  }
+
+  .line-13{
+    text-align: center;
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-13:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-14{
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-14:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-15{
+  text-align: center;
+  opacity: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 10px;
+  transition: ease-in-out, 0.5s;
+  }
+
+  .line-15:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-16{
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-16:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-17{
+  opacity: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 10px;
+  transition: ease-in-out, 0.5s;
+  }
+
+  .line-17:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+
+  .line-18{
+    opacity: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px;
+    transition: ease-in-out, 0.5s;
+  }
+
+  .line-18:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-19{
+  opacity: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 10px;
+  transition: ease-in-out, 0.5s;
+  }
+
+  .line-19:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-20{
+  opacity: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 10px;
+  transition: ease-in-out, 0.5s;
+  }
+  
+  .line-20:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-21{
+  opacity: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 10px;
+  transition: ease-in-out, 0.5s;
+  }
+  
+  .line-21:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+  .line-22{
+  opacity: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 10px;
+  transition: ease-in-out, 0.5s;
+  }
+
+  .line-22:hover{
+  opacity: 100%;
+  transition: ease, 0.5s;
+  }
+
+
+
+  .row-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
   }
 
   .button {
-    padding: 20px 50px;
-    border-radius: 30px;
-    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: papayawhip;
+    font-family: 'Solide Mirage Etroit';
     color: black;
-    font-size: 60px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    text-align: center;
-    transition: all 100ms;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /*transition: all 100ms;*/
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    animation-name: rotate;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
+
+  @keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
