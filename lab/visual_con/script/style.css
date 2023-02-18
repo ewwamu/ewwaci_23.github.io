@@ -118,6 +118,29 @@ img{
     color:papayawhip;
   }
 
+  .instructions{
+    padding: 60px;
+    color:papayawhip;
+    font-size: 18px;
+  }
+
+  .link a{
+    padding: 60px;
+    color:papayawhip;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .link a:hover{
+    padding: 50px;
+    color:white;
+  }
+  
+  .link a:active{
+    padding: 50px;
+    color:papayawhip;
+  }
+
   .name-1{
     font-size: 60px;
     font-family: 'Solide Mirage Etroit';
