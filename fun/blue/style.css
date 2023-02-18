@@ -1,0 +1,44 @@
+body{
+    height: 2000px;
+    width: 100vw;
+}
+
+.wrapper{
+    padding: 15px;
+}
+
+.gradients{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.gradient-1{
+    display: flex;
+    width: 500px;
+    height: 2000px;
+    background-color: white;
+    background-image: linear-gradient(white, royalblue);
+}
+
+.gradient-2{
+    text-align: center;
+    display: flex;
+    width: 500px;
+    height: 2000px;
+    background-color: white;
+    background-image: linear-gradient(white, royalblue, white);
+}
+
+.gradient-3{
+    text-align: center;
+    display: flex;
+    width: 500px;
+    height: 2000px;
+    background-color: white;
+    background-image: linear-gradient(royalblue, white);
+}
