@@ -15,7 +15,7 @@ body{
     height: 100%;
     overflow: auto;
     font-family: 'Courier Prime', monospace;
-    transition: ease-in-out 90s;
+    transition: ease-in-out 120s;
 }
 
 body:hover{
@@ -112,8 +112,9 @@ img{
 
   .row-2--content{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     padding: 100px;
+    text-align: center;
 
   }
 
@@ -449,8 +450,8 @@ img{
 
   .line-21{
   opacity: 0%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 230px;
   border: 10px;
   transition: ease-in-out, 0.5s;
   }
