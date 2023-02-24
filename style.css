@@ -163,3 +163,13 @@ cursor: url("assets/imgs/corneliuss-01.png"), auto;
 color: tomato;
 cursor: url("assets/imgs/corneliuss-01.png"), auto;
 }
+
+.labsummary4{
+  color: black;
+}
+
+
+.labsummary4 a:hover {
+color: tomato;
+cursor: url("assets/imgs/corneliuss-01.png"), auto;
+}
