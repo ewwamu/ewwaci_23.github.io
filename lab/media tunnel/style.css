@@ -169,7 +169,7 @@ body {
 
 
 
-  }
+}
 
 
 @media (max-width: 60.625em) {
@@ -208,13 +208,181 @@ body {
 
 }
   
+
+@media (max-width: 54.375em) {
+  body {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    transition: ease all .5s;
+  }
+
+  .building img{
+    display: none; 
+  }
+
+  .doorway img{
+    display: none; 
+  }
+
+  .hallway img{
+    display: block;
+    width: 100%;
+    align-self: center;
+  }
+
+  .ballroom img{
+    display: none; 
+  }
+
+  .ghost img{
+    display: none; 
+  }
+
+  .building .text-1{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+  }
   
-  @media (max-width: 54.375em) {
+  .doorway .text-2{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  .hallway .text-3{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block; 
+  }
+  
+  .ballroom .text-4{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+  }
+  
+  .ghost .text-5{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+  }
+
+}
+  
+  
+@media (max-width: 45em) {
+  body {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    transition: ease all .5s;
+  }
+
+  .building img{
+    display: none; 
+  }
+
+  .doorway img{
+    display: none; 
+  }
+
+  .hallway img{
+    display: none;
+  }
+
+  .ballroom img{
+    display: block; 
+    width: 100%;
+
+  }
+
+  .ghost img{
+    display: none; 
+  }
+
+  .building .text-1{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+  }
+  
+  .doorway .text-2{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  .hallway .text-3{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+  }
+  
+  .ballroom .text-4{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block; 
+  }
+  
+  .ghost .text-5{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+  }
+
+}
+  
+  
+  
+@media (max-width: 35em) {
     body {
       background-color: black;
       color: white;
       font-size: 18px;
       transition: ease all .5s;
+      margin: 0 auto;
     }
 
     .building img{
@@ -226,9 +394,7 @@ body {
     }
 
     .hallway img{
-      display: block;
-      width: 100%;
-      align-self: center;
+      display: none;
     }
 
     .ballroom img{
@@ -236,7 +402,8 @@ body {
     }
 
     .ghost img{
-      display: none; 
+      display: block; 
+      width: 100%;
     }
 
     .building .text-1{
@@ -266,7 +433,7 @@ body {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      display: block; 
+      display: none; 
     }
     
     .ballroom .text-4{
@@ -280,80 +447,6 @@ body {
     }
     
     .ghost .text-5{
-      color: white;
-      font-size: 18px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: none; 
-    }
-
-  }
-  
-  
-  
-  @media (max-width: 45.000em) {
-    body {
-      background-color: black;
-      color: white;
-      font-size: 18px;
-      transition: ease all .5s;
-    }
-
-    .building img{
-      display: none; 
-    }
-
-    .doorway img{
-      display: none; 
-    }
-
-    .hallway img{
-      display: none;
-    }
-
-    .ballroom img{
-      display: block; 
-      width: 100%;
-
-    }
-
-    .ghost img{
-      display: none; 
-    }
-
-    .building .text-1{
-      color: white;
-      font-size: 18px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: none; 
-    }
-    
-    .doorway .text-2{
-      color: white;
-      font-size: 18px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: none;
-    }
-    
-    .hallway .text-3{
-      color: white;
-      font-size: 18px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: none; 
-    }
-    
-    .ballroom .text-4{
       color: black;
       font-size: 18px;
       position: absolute;
@@ -362,99 +455,5 @@ body {
       transform: translate(-50%, -50%);
       display: block; 
     }
-    
-    .ghost .text-5{
-      color: white;
-      font-size: 18px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: none; 
-    }
-
-  }
-  
-  
-  
-  @media (max-width: 35em) {
-      body {
-        background-color: black;
-        color: white;
-        font-size: 18px;
-        transition: ease all .5s;
-        margin: 0 auto;
-      }
-
-      .building img{
-        display: none; 
-      }
-  
-      .doorway img{
-        display: none; 
-      }
-  
-      .hallway img{
-        display: none;
-      }
-  
-      .ballroom img{
-        display: none; 
-      }
-  
-      .ghost img{
-        display: block; 
-        width: 100%;
-      }
-
-      .building .text-1{
-        color: white;
-        font-size: 18px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: none; 
-      }
-      
-      .doorway .text-2{
-        color: white;
-        font-size: 18px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: none;
-      }
-      
-      .hallway .text-3{
-        color: white;
-        font-size: 18px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: none; 
-      }
-      
-      .ballroom .text-4{
-        color: white;
-        font-size: 18px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: none; 
-      }
-      
-      .ghost .text-5{
-        color: black;
-        font-size: 18px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: block; 
-      }
-  }
+}
   
