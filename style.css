@@ -133,6 +133,16 @@ details[open] summary ~ * {
     cursor: url("assets/imgs/corneliuss-01.png"), auto;
 }
 
+.proj2 a{
+  color: black;
+  cursor: url("assets/imgs/corneliuss-01.png"), auto;
+}
+
+.proj2 a:hover {
+  color: tomato;
+  cursor: url("assets/imgs/corneliuss-01.png"), auto;
+}
+
 .labsummary1{
     color: black;
 }

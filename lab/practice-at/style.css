@@ -15,22 +15,15 @@ img {
     transition: .3s ease-in-out;
   }
 
-  /*.content-container:hover img {
-    transform: scale(1.2); 
-  }*/
-
-  img:hover{
+img:hover{
     color: magenta; 
     background: magenta; 
     box-shadow: 0 0 50px magenta; 
-  }
+}
 
-
-
-/*.drawer-content{
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-bottom: 2rem;
-    display: none;
-
+.filters button {
+    border: none;
+    margin: .5rem;
+    padding: 1rem;
+    background-color: cyan;
 }
