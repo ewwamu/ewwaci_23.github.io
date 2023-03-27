@@ -27,8 +27,3 @@ function tonightPlay() {
   return tonight.paused ? tonight.play() : tonight.pause();
 };
 
-var rawrxd = document.getElementById("rawrxd");
-
-function rawrxdPlay() {
-  return rawrxd.paused ? rawrxd.play() : rawrxd.pause();
-};

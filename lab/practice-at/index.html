@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Airtable class example</title>
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- The website JavaScript file -->
+    <script src = "airtable.browser.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+        <h1>tihs is my airtable collection</h1>
+    </header>
+    <main>
+        <div class="button-wrapper">
+            <div class="filters-container">
+                <h2 class="subtitle">BY LOCATION</h2>
+                <div class="filters"><button class="filter-btn is-active" data-filter="all" data-type="location">ALL</button></div>
+            </div>
+            <div class="sort-container">
+                <h2 class="subtitle">BY NAME</h2>
+                <button class="sort-toggle" data-type="ascend">A-Z</button>
+            </div>
+        </div>
+        <div class="content-container">
+                
+        </div>
+    </main>
+    <script type="text/javascript" src="./script.js" defer></script>
+</body>
+</html>
