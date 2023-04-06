@@ -59,7 +59,7 @@ text {
     width: 25rem;
     rotate: -45deg;
     position: absolute;
-    top: 10rem;
+    top: 5rem;
     left: 25rem;
 }
 
@@ -72,8 +72,8 @@ text {
   width: 13rem;
   rotate: 20deg;
   position: absolute;
-  top: 3rem;
-  left: 45rem;
+  top: 2.5rem;
+  left: 47rem;
 }
 
 .header:hover .hair-3{
@@ -1102,8 +1102,8 @@ a:active{
   
   .content-container img {
     width:225px;
-    height:225px;
-    object-fit:scale-down;      
+    height: 225px;
+    object-fit: scale-down;
     display: grid;
     border-radius: 25px;
     margin: auto;
