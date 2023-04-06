@@ -4,8 +4,7 @@ html {
 
 body {
     font-family: 'Druzhok';
-    /*margin: .5rem;
-    padding: 5px;*/
+    margin: 0 auto;
     font-size: 7rem;
     overflow-x: hidden;
     cursor: url("./combcursor.png"), auto;
