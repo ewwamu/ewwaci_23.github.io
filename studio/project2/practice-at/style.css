@@ -201,13 +201,14 @@ p {
 }
 
 .content-container img {
-    width: 225px;
-    border-radius: 25px;
-    margin: auto;
-    justify-self: center;
-    transition: .3s ease-in-out;
-    cursor: url("./assets/imgs/combcursor.png"), auto;
-
+  width:225px;
+  height:225px;
+  object-fit:scale-down;
+  border-radius: 25px;
+  margin: auto;
+  justify-self: center;
+  transition: .3s ease-in-out;
+  cursor: url("./assets/imgs/combcursor.png"), auto;
   }
 
 /*.content-container:hover{
@@ -254,7 +255,7 @@ a:active{
 
 
 
-@media (max-width: 80em) {
+@media (max-width: 82em) {
   html {
     cursor: url("./assets/imgs/combcursor.png"), auto;
   }
@@ -290,7 +291,7 @@ a:active{
       width: 25rem;
       rotate: -45deg;
       position: absolute;
-      top: 10rem;
+      top: 5rem;
       left: 25rem;
   }
   
@@ -354,7 +355,6 @@ a:active{
       color: #b76935;
       letter-spacing: normal;
       cursor: url("./assets/imgs/combcursor.png"), auto;
-
   }
   
   .filters button:hover {
@@ -423,14 +423,14 @@ a:active{
   }
   
   .content-container img {
-      width: 180px;
-      display: grid;
-      border-radius: 25px;
-      margin: auto;
-      justify-self: center;
-      transition: .3s ease-in-out;
-      cursor: url("./assets/imgs/combcursor.png"), auto;
-  
+    width:225px;
+    height:225px;
+    object-fit:scale-down;
+    border-radius: 25px;
+    margin: auto;
+    justify-self: center;
+    transition: .3s ease-in-out;
+    cursor: url("./assets/imgs/combcursor.png"), auto;
     }
   
   .content-container img:hover {
@@ -648,13 +648,241 @@ a:active{
   }
   
   .content-container img {
-      width: 145px;
-      display: grid;
+    width:225px;
+    height:225px;
+    object-fit:scale-down;
+    border-radius: 25px;
+    margin: auto;
+    justify-self: center;
+    transition: .3s ease-in-out;
+    cursor: url("./assets/imgs/combcursor.png"), auto;
+
+    }
+  
+  .content-container img:hover {
+  animation: shake 1s;
+  
+  animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(2px, 1px) rotate(0deg); }
+    /*10% { transform: translate(-1px, -2px) rotate(-1deg); }*/
+    20% { transform: translate(-6px, 0px) rotate(5deg); }
+    /*30% { transform: translate(3px, 2px) rotate(0deg); }*/
+    40% { transform: translate(7px, 0px) rotate(-5deg); }
+    /*50% { transform: translate(-1px, 2px) rotate(-1deg); }*/
+    60% { transform: translate(-7px, 0px) rotate(5deg); }
+    /*70% { transform: translate(3px, 1px) rotate(-1deg); }*/
+    80% { transform: translate(-6px, 0px) rotate(-5deg); }
+    /*90% { transform: translate(1px, 2px) rotate(0deg); }*/
+    100% { transform: translate(2px, 0px) rotate(0deg); }
+  }
+  
+  a {
+    fill: #b76935;
+    font-family: 'Druzhok';
+  }
+  
+  a:hover{
+    fill: #2A68A5;}
+  
+  a:active{
+    fill: #2A68A5;}
+  
+}
+
+@media (max-width: 62.9em) {
+  html {
+    cursor: url("./assets/imgs/combcursor.png"), auto;
+  }
+  
+  body {
+      font-family: 'Druzhok';
+      margin: .5rem;
+      padding: 5px;
+  }
+  
+  text {
+      fill: #b76935;
+      font-size: 30px;
+    }
+  .header-1 {
+      display: inline-block; 
+  }
+  
+  .hair-1 {
+      width: 20rem;
+      rotate: -10deg;
+      position: absolute;
+      top: 3.5rem;
+      left: 3rem;
+  }
+  
+  .header-2 {
+      display: inline-block; 
+  }
+  
+  .hair-2 {
+      width: 25rem;
+      rotate: -45deg;
+      position: absolute;
+      top: 10rem;
+      left: 20rem;
+  }
+  
+  .header-3 {
+      display: inline-block; 
+  
+  }
+  
+  .hair-3 {
+    width: 13rem;
+    rotate: 20deg;
+    position: absolute;
+    top: 3rem;
+    left: 35rem;
+  }
+  
+  .header-4 {
+      display: inline-block;
+  
+  }
+  
+  .hair-4{
+    width: 16rem;
+    rotate: -45deg;
+    position: absolute;
+    top: 8rem;
+    left: 42rem;
+  }
+  
+  .header-5 {
+    display: inline-block; 
+  }
+  
+  .header:hover img{
+    opacity: 0%;
+  }
+  
+  p {
+      font-size: 8rem;
+      color: #b76935;
+      margin: 1rem;
+  }
+  
+  .subtitle {
+      font-size: 2.25rem;
+      color: white;
+      margin: 1rem;
+  }
+
+  .button-wrapper {
+    margin: 1rem auto;
+    position: sticky;
+    top: 20px;
+    color: white;
+    background-color: #b76935;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #b76935;
+    border-width: .5rem;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-auto-columns: calc(100% - 4rem);
+    overflow-x: auto;
+  }
+  
+  .filters button {
+      font-family: 'Director';
+      font-size: 1rem;
+      border: none;
       border-radius: 25px;
-      margin: auto;
-      justify-self: center;
-      transition: .3s ease-in-out;
+      margin: .5rem;
+      padding: 1rem;
+      background-color: #b76935;
+      color: white;
+      letter-spacing: normal;
       cursor: url("./assets/imgs/combcursor.png"), auto;
+  
+  }
+  
+  .filters button:hover {
+      letter-spacing: .15rem;
+      transition: ease-out .4s;
+      color: #2A68A5;
+      cursor: url("./assets/imgs/combcursor.png"), auto;
+  
+  }
+  
+  .filters button:focus {
+      letter-spacing: .15rem;
+      transition: 0.5s;
+      color: #2A68A5;
+      cursor: url("./assets/imgs/combcursor.png"), auto;
+  }
+  
+  .drawer-button {
+      font-family: 'Druzhok';
+      font-size: 1rem;
+      border: none;
+      border-radius: 25px;
+      margin: .5rem;
+      padding: 1rem;
+      background-color: white;
+      color: black;
+      letter-spacing: normal;
+      cursor: url("./assets/imgs/combcursor.png"), auto;
+  }
+  
+  .drawer-button--title {
+    font-family: 'Druzhok';
+    font-size: 2.25rem;
+  }
+  
+  .drawer-button--info {
+    font-family: 'Druzhok';
+    font-size: 1.25rem;
+  }
+  
+  .content-container {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));    
+    grid-template-rows: auto;
+    column-gap: .25rem;
+    row-gap: .25rem;
+  }
+  
+  .airtable-item {
+    place-items: center;  
+    padding: .2rem;
+    border: .15rem solid black;
+    border-radius: 25px;
+    text-align: center;
+  }
+  
+  .drawer-content--description{
+      font-family: 'Director';
+      margin: .5rem;
+      letter-spacing: .1rem;
+      font-size: .9rem;
+      color: #b76935;
+      cursor: url("./assets/imgs/combcursor.png"), auto;
+  
+  }
+  
+  .content-container img {
+    width:225px;
+    height:225px;
+    object-fit:scale-down;      
+    display: grid;
+    border-radius: 25px;
+    margin: auto;
+    justify-self: center;
+    transition: .3s ease-in-out;
+    cursor: url("./assets/imgs/combcursor.png"), auto;
   
     }
   
@@ -873,13 +1101,15 @@ a:active{
   }
   
   .content-container img {
-      width: 145px;
-      display: grid;
-      border-radius: 25px;
-      margin: auto;
-      justify-self: center;
-      transition: .3s ease-in-out;
-      cursor: url("./assets/imgs/combcursor.png"), auto;
+    width:225px;
+    height:225px;
+    object-fit:scale-down;      
+    display: grid;
+    border-radius: 25px;
+    margin: auto;
+    justify-self: center;
+    transition: .3s ease-in-out;
+    cursor: url("./assets/imgs/combcursor.png"), auto;
   
     }
   
@@ -916,7 +1146,7 @@ a:active{
   
 }
 
-@media (max-width: 43em) {
+@media (max-width: 48.5em) {
   html {
     cursor: url("./assets/imgs/combcursor.png"), auto;
   }
@@ -1098,14 +1328,16 @@ a:active{
   }
   
   .content-container img {
-      width: 250px;
-      display: grid;
-      border-radius: 25px;
-      margin: auto;
-      justify-self: center;
-      transition: .3s ease-in-out;
-      cursor: url("./assets/imgs/combcursor.png"), auto;
-  
+    width:250px;
+    height:250px;
+    object-fit:scale-down;      
+    display: grid;
+    border-radius: 25px;
+    margin: auto;
+    justify-self: center;
+    transition: .3s ease-in-out;
+    cursor: url("./assets/imgs/combcursor.png"), auto;
+
     }
   
   .content-container img:hover {
