@@ -338,6 +338,10 @@ a:active{
       font-size: 2.25rem;
       color: #b76935;
   }
+
+  .button-wrapper {
+    margin: 2rem auto;
+  } 
   
   .filters button {
       font-family: 'Director';
@@ -350,7 +354,7 @@ a:active{
       color: #b76935;
       letter-spacing: normal;
       cursor: url("./assets/imgs/combcursor.png"), auto;
-  
+
   }
   
   .filters button:hover {
@@ -1026,7 +1030,6 @@ a:active{
       color: white;
       letter-spacing: normal;
       cursor: url("./assets/imgs/combcursor.png"), auto;
-  
   }
   
   .filters button:hover {

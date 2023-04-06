@@ -338,6 +338,23 @@ a:active{
       font-size: 2.25rem;
       color: #b76935;
   }
+
+  .button-wrapper {
+    margin: 1rem auto;
+    position: sticky;
+    top: 20px;
+    color: #b76935;
+    background-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #b76935;
+    border-width: .5rem;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-auto-columns: calc(100% - 4rem);
+    overflow-x: auto;
+  }
   
   .filters button {
       font-family: 'Director';
@@ -350,7 +367,6 @@ a:active{
       color: #b76935;
       letter-spacing: normal;
       cursor: url("./assets/imgs/combcursor.png"), auto;
-  
   }
   
   .filters button:hover {
