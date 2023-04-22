@@ -23,7 +23,7 @@ function renderItems(collection) {
         <p><em>Genre: ${item.genre}</p>
         <p><em>Year Released: ${item.releaseYear}</p>
     `
-    listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
+    listItem.insertAdjacentHTML('beforeend', itemDetails) 
     
     if (item.albumSingle == "Album") { 
         listItem.classList.add('Album') 
@@ -52,24 +52,6 @@ function renderItems(collection) {
 //         $("#tooltip").hide();
 //    });​​​​​​​​​​
 
-// window.onload=function(){
-
-//     // selecting the elements for which we want to add a tooltip
-//     const target = document.getElementById("tooltip-button");
-//     const tooltip = document.getElementById("tooltip-text");
-    
-//     // change display to 'block' on mouseover
-//     target.addEventListener('mouseover', () => {
-//       tooltip.style.display = 'block';
-//     }, false);
-    
-//     // change display to 'none' on mouseleave
-//     target.addEventListener('mouseleave', () => {
-//       tooltip.style.display = 'none';
-//     }, false);
-    
-//     }
-
 // document.addEventListener('mousemove', (e) => {
 //     document.querySelector('cursor').style.left = `${clientX}`
 //     document.querySelector('cursor').style.top = `${clientY}`
@@ -78,7 +60,7 @@ function renderItems(collection) {
 // })
 
 
-fetch('./assets/playlist.json')
+fetch('./playlist.json')
 .then(function (response) {
     return response.json();
 })
