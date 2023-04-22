@@ -1,5 +1,5 @@
-var imgfollow=document.querySelector(".pointer");
-document.onmousemove=function(){
+var imgfollow=document.getElementsByClassName("pointer");
+document.onmousemove=function() {
     var x=event.clientX*95/window.innerWidth + "%";
     //event.clientX to get horizontal coordinate of mouse
     var y=event.clientY*95/window.innerHeight + "%";
