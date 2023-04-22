@@ -60,7 +60,7 @@ function renderItems(collection) {
 // })
 
 
-fetch('./playlist.json')
+fetch('../../lab/JSONData/open/assets/playlist.json')
 .then(function (response) {
     return response.json();
 })
