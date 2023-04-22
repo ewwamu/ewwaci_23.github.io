@@ -78,7 +78,7 @@ function renderItems(collection) {
 // })
 
 
-fetch('./open/assets/playlist.json')
+fetch('./assets/playlist.json')
 .then(function (response) {
     return response.json();
 })
