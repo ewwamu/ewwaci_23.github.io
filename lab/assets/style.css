@@ -1,0 +1,174 @@
+canvas {
+    z-index: -99;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    cursor: auto;
+    margin: auto;
+    transition: ease-in-out 1s;    
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Pitch Sans Medium';
+    margin: auto;
+}
+
+@font-face {
+  font-family: 'Director';
+  src:    url('./assets/fonts/Director-Regular.woff') format('woff'),
+          url('./assets/fonts/Director-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Director';
+  src:    url('./assets/fonts/Director-Bold.woff') format('woff'),
+          url('./assets/fonts/Director-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pitch Sans Regular';
+  src:    url('./fonts/pitchcollection/pitchsans/sans-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pitch Sans Medium';
+  src:    url('./fonts/pitchcollection/pitchsans/sans-medium.woff2') format('woff2');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pitch Sans Bold';
+  src:    url('./assets/fonts/pitchcollection/pitchsans/sans-bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.heading {
+    margin: 1rem 2rem 0rem 2rem;
+    padding: 1rem;
+    text-align: right;
+    align-content: right;
+    z-index: 0;
+}
+
+    .headingone {
+        margin: auto;
+        font-size: 5rem;
+    }
+
+    .headingtwo {
+        margin: auto;
+        font-size: 5rem;
+    }
+
+.info {
+    margin: 0rem 2rem 0rem 2rem;
+    font-size: 1rem;
+    text-align: right;
+    align-content: right;
+}
+
+/* .lab {
+} */
+
+a {
+    margin: 0;
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: aqua;
+}
+
+
+
+.viscon a {
+    float: left;
+    top: 0vh;
+    left: 0vw;    
+    position: absolute;
+    animation: move 60s linear infinite alternate;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+    z-index: 1;
+
+
+    &:hover {
+        animation-play-state: paused;
+      }
+}
+
+.medtun a {
+    float: left;
+    top: 0vh;
+    left: 0vw;    
+    position: absolute;
+    animation: move 60s linear infinite alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    opacity: 1;
+    z-index: 1;
+
+    &:hover {
+        animation-play-state: paused;
+      }
+}
+
+.filmstrip a {
+    float: left;
+    top: 0vh;
+    left: 0vw;
+    position: absolute;
+    animation: move 60s linear infinite alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 6s;
+    opacity: 1;
+    z-index: 1;
+
+    &:hover {
+        animation-play-state: paused;
+        }
+}
+
+    @keyframes move {
+        0%   {
+            top: 0vh;
+            left: 0vw;
+        }
+        25% {
+            top: 80vh;
+            left: 85vw;
+        }
+        50%   {
+            top: 30vh;
+            left: 10vw;
+
+        }
+        75%   {
+            top: 90vh;
+            left: 85vw;
+
+        }
+
+        100% {
+            top: 50vh;
+            left: 10vw;
+        }
+    }
+
