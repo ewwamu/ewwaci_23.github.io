@@ -74,9 +74,9 @@ body {
     }
 
 .info {
-    position: sticky;
+    position: fixed;
     top: 90vh;
-    left: 10vw;
+    left: .05vw;
     margin: 0rem 2rem 0rem 2rem;
     font-size: 1.25rem;
     text-align: left;
