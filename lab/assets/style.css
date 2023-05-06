@@ -8,6 +8,7 @@ html{
     cursor: auto;
     margin: auto;
     transition: ease-in-out 1s;
+    overflow: hidden;
 }
 
 body {
@@ -64,19 +65,22 @@ body {
 
     .headingone {
         margin: auto;
-        font-size: 5rem;
+        font-size: 6rem;
     }
 
     .headingtwo {
         margin: auto;
-        font-size: 5rem;
+        font-size: 6rem;
     }
 
 .info {
+    position:sticky;
+    top: 90vh;
+    left: 10vw;
     margin: 0rem 2rem 0rem 2rem;
-    font-size: 1rem;
-    text-align: right;
-    align-content: right;
+    font-size: 1.25rem;
+    text-align: left;
+    align-content: left;
 }
 
 /* .lab {
@@ -148,13 +152,13 @@ a:active {
 .sumplay a {
     float: left;
     top: 0vh;
-    left: 0vw;    
+    left: 0vw; 
     position: absolute;
     animation: move 60s linear infinite alternate;
     animation-timing-function: ease-in-out;
     animation-delay: 6s;
     opacity: 1;
-    z-index: 1;
+    z-index: 2;
 
     &:hover {
         animation-play-state: paused;
