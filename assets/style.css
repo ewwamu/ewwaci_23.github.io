@@ -158,6 +158,10 @@ p {
   animation-timing-function: linear;
 }
 
+.link a:hover {
+  color: white;
+}
+
 @keyframes rotate{
   from{ transform: rotate(-360deg); }
   to{ transform: rotate(360deg); }
