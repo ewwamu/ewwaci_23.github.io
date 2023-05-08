@@ -172,22 +172,22 @@ a:active {
         }
         25% {
             top: 80vh;
-            left: 85vw;
+            left: 87vw;
         }
         50%   {
             top: 30vh;
-            left: 10vw;
+            left: 0vw;
 
         }
         75%   {
-            top: 90vh;
-            left: 85vw;
+            top: 97.5vh;
+            left: 87vw;
 
         }
 
         100% {
             top: 50vh;
-            left: 10vw;
+            left: 0vw;
         }
     }
 
