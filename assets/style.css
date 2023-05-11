@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 1rem;
+    overflow: hidden;
 }
 
 @font-face {
@@ -278,6 +279,98 @@ details[open] summary ~ * {
   /* cursor: url("assets/imgs/corneliuss-01.png"), auto; */
 }
 
+
+.name {
+  font-family: 'Pitch Sans Medium';
+  position: absolute;
+  top: 81vh;
+  left: 1vw;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.name {
+  padding: 0rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 2px solid black;
+  /* rotate: -7deg; */
+
+}
+
+.nameheader {
+  font-size: 5rem;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #58D7FF;
+  color: black;
+}
+
+
+.instructors {
+  font-family: 'Pitch Sans Medium';
+  position: absolute;
+  top: 81vh;
+  left: 27.4vw;
+  z-index: 9;
+  background-color: none;
+  text-align: center;
+}
+
+.instructors {
+  padding: 0rem;
+  text-align: center;
+  font-size: .5rem;
+  border: 2px solid #58D7FF;
+  /* rotate: -7deg; */
+
+}
+
+.instructorsheader {
+  font-size: 3.18rem;
+  padding: 8px;
+  cursor: move;
+  z-index: 10;
+  background-color: none;
+  color: #58D7FF;
+}
+
+.cd {
+  font-family: 'Pitch Sans Medium';
+  position: absolute;
+  top: 94vh;
+  left: 27.4vw;
+  z-index: 9;
+  background-color: none;
+  text-align: center;
+}
+
+.cd {
+  padding: 0rem;
+  text-align: center;
+  font-size: .5rem;
+  border: 2px solid #58D7FF;
+  /* rotate: -7deg; */
+
+}
+
+.cdheader {
+  font-size: 1rem;
+  padding: 5px;
+  cursor: move;
+  letter-spacing: 10px;
+  z-index: 10;
+  background-color: #58D7FF;
+  color: white;
+}
+
+
 canvas {
   z-index: -99;
 }
+/* 
+COLORS
+
+#f1f1f1 = gray */
